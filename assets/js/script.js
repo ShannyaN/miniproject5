@@ -1,8 +1,10 @@
-// Dependencies
+// Dependencies (DOM Elements)
     // Header (connected to time and date)
     // Add project button
-    // Remove button
+    // Delete project button
+    // Save Button
     // Elements
+
 
 
 // DATA
@@ -14,8 +16,9 @@
 
 // Functions
 function startTimer() {
-    // Create date and time, MUST update every second (build with day.js)-- setInterval(), abbreviated month, day, full year, and time (e.g. Jun 30, 2022 at 08:37:48 am).
-
+    // get the initial time
+    // display timer
+    // display the timer every second
 }
 
 function displayProjects() {
@@ -28,16 +31,22 @@ function loadSavedProjects() {
 }
 
 function addProjects() {
-    
+
 }
+
+function saveProject() {
+
+}
+
     //  
 
 
 
 // User Interactions
-    // Add: project button
-    // Add: X (delete) button
-
+    // a user clicks Add: project button
+    // a user clicks: X (delete) button.
+    // a user clicks: cancel on the modal button
+    // a user clicks: save project button
 
 // Initialization
     // start timer
